@@ -1,4 +1,151 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:600,800');
+body{
+    
+    font-family: 'dosis', sans-serif;
+    font-size: 200%;
+    text-shadow: 1px 1px 1px #666;
+    color: #fff;
+    
+}
+
+.navbar{
+background-color: #297fb8 !important;
+border-bottom: 1px solid #5398c6;
+
+}
+.navbar-brand{
+  min-height: 0%;
+  padding: 10px;
+}
+#homeImg{
+    margin-top: 0%;
+    width: 100%;
+    padding-top: 6%;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 65%; 
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #fff;
+    font-size: 65%; 
+}
+.navbar-dark .navbar-toggler:hover{
+    background: color #5398c6;
+}
+
+#icons{
+    margin: 1% auto;
+    max-width: 200px;
+}
+img{
+    margin: 0 auto;
+}
+#image{
+    width: 100%;
+}
+.blockquote{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.fa{
+    font-size: 90px;
+    color: #fff;
+    padding: 0 20px;
+}
+a:hover{
+    color: #d5d5;
+}
+#About{
+    background-color: #1fb8eb;
+    padding-top: 40px;
+}
+#Features{
+    padding: 70px 0 50px;
+    background-color: #ff9800;
+}
+#Portfolio{
+    padding: 70px 0 50px;
+    background-color: #00b2ca;
+}
+#Connect{
+    padding: 0 0 12%;
+    background-color: #673ab7;
+}
+p{
+font-size: 70%;
+padding-top: 50px;
+}
+.logo{
+    margin-left: 60px;
+}
+h1{
+
+}
+h2{
+    font-size: 160%;
+    text-shadow:1px 1px 1px #d5d5d5
+}
+h3{
+    font-size: 110%;
+    max-width: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.row{
+    margin: 0%;
+}
+
+@media (max-width: 768px){
+    #homeImg{
+        padding-top: 28%;
+    }
+    #icons{
+        width: 23%;
+        padding: 14px 0;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+        padding-bottom: 12px;
+    }
+    h3{
+        font-size:55%;
+        margin: 0 auto;
+        padding-top: 5px;
+    }
+    .blockquote{
+        font-size: 23px;
+    }
+    p{
+        font-size: 50%;
+        padding-bottom: 6%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -6,24 +6,146 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
 <!--Navigation Bar-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a href="#" class="navbar-brand">
         <img src="img/logo.png" alt="w3newbie Logo">
     </a>
-    <button type="button" class="navbar-toggler" data-toggle="collapse">
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav ml-auto ">
+            <li class="nav-item active  px-4"><a href="#Home" class="nav-link">Home</a></li>
+            <li class="nav-item px-4"><a href="#About" class="nav-link">About</a></li>
+            <li class="nav-item px-4"><a href="#Features" class="nav-link">Features</a></li>
+            <li class="nav-item px-4"><a href="#Portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item px-4"><a href="#Connect" class="nav-link">Connect</a></li>
+        </ul>
+    </div>
 
 </nav>
 <!--End of NavBar-->
 
+<!--BackGround Image-->
+<div id="Home" class="">
+    <img src="img/desktop.png" alt="desktop" class="img-fluid" id="homeImg">
+</div>
+<!--End Of background Image-->
+
+<!--Third Section-->
+<div id="About" class="container-fluid">
+        <h1 class="text-center font-weight-bold">Welcome To My Demo Site</h1>
+        <h3 class="text-center font-weight-bold">Let me show you how to build a fantastic looking flat website using Bootstrap 4 along With Some HTML5 And CSS snippets.</h3>
+        
+        <div class="row p-4">
+            <div class="col-md-6">
+                <p>Creating a website can be done in many ways. Many web hosting providers provide website building tools and software.
+                    This is the easiest method of building a website.
+                    Alternatively you can use Wordpress and Drupal to create your website. It all depends on your comfrfot level.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/code.png" alt="logp" class="img-fluid logo">
+            </div>
+        </div>
+        <blockquote class="blockquote text-center font-italic display-3 pb-3 m-0 ">"This is the best website course ever!" -J.Johnson</blockquote>
+
+</div>
+
+<!--End of Third Section-->
 
 
+<div class="" id="image">
+    <img src="img/charts.png" alt="charts" class="img-fluid d-block mx-auto w-100">
+</div>
+<!-- Feature Section-->
+<div id="Features" class="text-center container-fluid">
+        <h2 class="">Get to know our Features</h2>
+        <div class="row ">
+            <div class="col-sm-4">
+                <img src="img/bootstrap.png" alt="bootstrap logo" class="img-fluid pt-3" id="icons">
+                
+                    <h3>
+                        BOOTSTRAP
+                    </h3>
+            </div>
+            <div class="col-sm-4">
+                    <img src="img/css3.png" alt="css logo" class="img-fluid pt-3" id="icons">
+                     <h3>
+                        CSS3
+                     </h3>
+                    
+            </div>
+            <div class="col-sm-4">
+                    <img src="img/html5.png" alt=" logo" class="img-fluid pt-3" id="icons">
+                    <h3>
+                     HTML5
+                    </h3>
+            </div> 
+        </div>
+        <br>
+        <h3 class="text-center pt-4">Build responsive, mobile first projects on the web with the worlds most popular front-end component library.
+             Bootstrap is an open source toolkit for developing with HTML5 CSS3 and JavaScript
+        </h3>   
+</div>
+
+<div>
+    <img src="img/people.png" alt="people" class="img-fluid">
+</div>
+<!--Portfolio-->
+<div id="Portfolio" class="container-fluid text-center">
+        <h2 class="pb-5">Check out Our Portfolio</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <img src="img/icons/calendar.png" alt="" class="img-fluid" id="icons">
+            </div>
+
+            <div class="col-md-4">
+            <img src="img/icons/camera.png" alt=""  class="img-fluid" id="icons">
+            </div>
+
+            <div class="col-md-4">
+                <img src="img/icons/clock.png" alt="" class="img-fluid" id="icons">
+            </div>
+
+        </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/icons/mic.png" alt="" class="img-fluid d-none d-md-block" id="icons">
+                </div>
+                
+                <div class="col-md-4">
+                    <img src="img/icons/tv.png" alt="" class="img-fluid d-none d-md-block" id="icons">
+                </div>
+                
+                <div class="col-md-4">
+                    <img src="img/icons/phone.png" alt="" class="img-fluid d-none d-md-block" id="icons">
+                </div>
+            </div>
+           
+    </div>
+    <!--End Of Portfolio Section-->
+    <img src="img/social.png" class="img-fluid">
+
+    <!--Connect Me-->
+    <footer id="Connect" class="text-center container-fluid">
+        <h3 class="font-weight-bold">Connect</h3>
+        <br>
+        
+            <a href="#" ><span class="fa fa-facebook"></span></a>
+            <a href="#" ><span class="fa fa-twitter"></span></a>
+            <a href="#" ><span class="fa fa-instagram"></span></a>
+            <a href="#" ><span class="fa fa-youtube"></span></a>
+        
+    </footer>
+    <!--Connect With Me-->
+    
 </body>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
